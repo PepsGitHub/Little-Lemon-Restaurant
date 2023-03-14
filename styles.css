@@ -1,0 +1,122 @@
+body{
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', system-ui, serif;
+}
+
+main, nav, footer{
+    margin: 3rem 5% 3rem 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 5vw;
+}
+
+header a > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: #B2A332;
+    border-radius: 1.2rem;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+nav a{
+    text-decoration-line: none;
+    color: white;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+}
+
+.container img{
+    height: 10rem;
+    object-fit: cover;
+    filter: brightness(40%);
+    border-radius: 1.2rem;
+}
+
+.container {
+    position: relative;
+    color: #EDEFEE;
+}
+
+.promotion_title{
+    position:absolute;
+    top: -20px;
+    left: 16px;
+}
+
+.promotion_description{
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+
+.carte{
+    color: #4C5C53;
+    background-color: #F3CB14;
+    text-align: center;
+    border-radius: 3rem;
+    margin-right: 1rem;
+}
+
+img.zoom{
+    transition: 0.3s;
+}
+
+.zoom:hover{
+    animation: zoom-in 5s ease;
+}
+  
+@keyframes zoom-in{
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.05, 1.05);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+#desc1, #desc2, #desc3{
+    padding: 1rem;
+}
+
+footer{
+    margin-top: 1rem;
+    background-color: #9C9441;
+    color: #EDEFEE;
+    display: block;
+}
+
+footer img{
+    padding: 0.5rem;
+}
+
+footer p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -5rem;
+    padding-bottom: 3rem;
+}
